@@ -28,7 +28,7 @@
 ; elpy
 (package-initialize)
 (elpy-enable)
-(elpy-use-ipython)
+;(elpy-use-ipython)
 (setq elpy-modules
       (quote
        (elpy-module-company
