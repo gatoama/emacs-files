@@ -6,6 +6,7 @@
 (setq find-grep-options "-i -q") ;Add -i to default for find-grep-dired.
 (setq-default indent-tabs-mode nil) ;Use spaces instead of hard tabs.
 (setq column-number-mode t) ;Enable column-number-mode by default.
+(setq backup-directory-alist `(("." . "~/.emacs.d/.saves"))) ;Redirect all backup files here.
 
 ; C and C++ Indentation Settings
 (defun my-c-c++-indent-settings ()
