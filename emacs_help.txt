@@ -1,0 +1,4 @@
+C-h b : list key bindings.
+C-h a : search for a command.
+M-x where-is : show what key (if any) is associated with a command.
+M-x apropos : search for a symbol.
