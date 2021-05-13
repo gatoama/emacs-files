@@ -1,4 +1,10 @@
 C-h b : list key bindings.
-C-h a : search for a command.
-M-x where-is : show what key (if any) is associated with a command.
 M-x apropos : search for a symbol.
+
+C-h a : help for a command.
+C-h f : help for a function
+
+
+C-h k : help for a particular key binding
+M-x where-is : show what key (if any) is associated with a command.
+C-h ? : list all help commands
