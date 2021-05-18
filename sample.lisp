@@ -7,7 +7,7 @@
     (beginning-of-line)
     (insert ";")))
 
-; Rename foo and add parameter.
+; Add parameter and rename foo.
 (defun make-comment (comment-str)
   (interactive "sEnter comment string: ")
   (save-excursion
